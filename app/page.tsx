@@ -4,6 +4,7 @@
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import { createClient } from "@/src/utils/supabase/client"
+import GoogleAd from "@/src/components/GoogleAd"
 
 export default function LandingPage() {
   const supabase = createClient()
@@ -277,7 +278,10 @@ export default function LandingPage() {
           </div>
         </div>
       )}
-
+  <section className="max-w-4xl mx-auto px-6">
+  <GoogleAd slotId="8533852285" /> {/* 替换为你的 AdSense 广告单元 ID */}
+  </section>
     </div>
   )
+
 }

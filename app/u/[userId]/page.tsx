@@ -3,6 +3,7 @@
 
 import { useEffect, useState, use } from "react"
 import { createClient } from "@/src/utils/supabase/client"
+import GoogleAd from "@/src/components/GoogleAd"
 
 interface Menu { id: string; title: string; duration: number; bill_policy: 'split' | 'me' | 'you' }
 interface Slot { id: string; start_time: string; status: string }
@@ -133,6 +134,10 @@ export default function PublicBookingPage({ params }: { params: Promise<{ userId
           >
             Back to Calendar
           </button>
+          {/* 提交成功反馈视图内部 */}
+<div className="pt-4 border-t border-neutral-800">
+  <GoogleAd slotId="1234567890" format="auto" />
+</div>
         </div>
       </div>
     )
