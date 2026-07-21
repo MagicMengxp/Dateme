@@ -41,7 +41,7 @@ export default function LandingPage() {
           <nav className="hidden md:flex items-center space-x-8 text-xs font-mono text-neutral-400">
             <a href="#features" className="hover:text-amber-400 transition-colors">FEATURES</a>
             <a href="#privacy" className="hover:text-amber-400 transition-colors">PRIVACY_PROMISE</a>
-            <a href="#workflow" className="hover:text-amber-400 transition-colors">HOW_IT_WORKS</a>
+            {/*<a href="#workflow" className="hover:text-amber-400 transition-colors">HOW_IT_WORKS</a>*/}
           </nav>
 
           <div className="flex items-center space-x-4">
@@ -226,7 +226,7 @@ export default function LandingPage() {
             >
               Privacy Policy & Terms
             </button>
-            <a href="#features" className="hover:text-neutral-300 transition-colors">Features</a>
+            {/*<a href="#features" className="hover:text-neutral-300 transition-colors">Features</a>*/}
           </div>
         </div>
       </footer>
