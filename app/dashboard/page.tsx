@@ -178,7 +178,7 @@ export default function DashboardPage() {
   // 6. Logout
   const handleLogout = async () => {
     await supabase.auth.signOut()
-    router.push('/login')
+    router.push('/')
   }
 
   if (loading) {
