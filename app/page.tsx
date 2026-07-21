@@ -218,7 +218,7 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="border-t border-neutral-900 py-10 text-center text-[11px] text-neutral-500 font-mono">
         <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <div>© {new Date().getFullYear()} ChronoHost. Built with privacy & control in mind.</div>
+          <div>© {new Date().getFullYear()} ChronoHost. Built with privacy & control in mind. If you have any questions, you can contact 60184010520meng@gmail.com </div>
           <div className="flex space-x-6">
             <button 
               onClick={() => setShowPrivacyModal(true)} 
